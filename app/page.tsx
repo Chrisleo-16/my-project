@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
 import Trusted from "@/components/Trusted";
+import Head from "next/head";
 
 export default function Home() {
   return (
