@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API}>
       <html lang="en" suppressHydrationWarning>
         <body className="scroll-smooth">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
